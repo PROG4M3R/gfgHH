@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #357960;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #357960;
+    padding: 15px;
+  }
+  nav{
+    align-self: center;
+   
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+    background-color: #357960;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    padding-left: 5px;
+    align-content:center;
+  }
+  a.list{
+    color: white;
+    
+    
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .feature-card {
+    background-color: #18281E;
+    border: 5px solid #ffffff;
+    color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #357960;
+  }
+
+
+.scroll-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .service-card {
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .service-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  #handshake-logo {
+    fill: #357960; /* Change the color to match your theme */
+    margin-right: 10px; /* Add spacing between the logo and title */
+  }
+  /* ... (existing styles) ... */
+
+  .service-card {
+    width: 300px; /* Adjust as needed */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .service-card img {
+    max-width: 300px;
+    height: 300px;
+    background-size: cover ;
+    border-radius: 10px;
+    border: 5px solid #78c8aa;
+  }
+  
+  .aspect-ratio--16x9 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  }
+  
+  .aspect-ratio--16x9 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .feature-card:hover, .service-card img:hover{
+    animation: 0.2s ease-in 0s 1 normal forwards running n1;
+  }
+  @keyframes n1 {
+    0%{transform: scale(1);
+    
+  }
+  100%{transform: scale(1.08);
+    box-shadow: 5px 5px 10px #357960;
+
+  }
+}
+.nav{
+background-color: #78c8aa;
+border-radius: 10px;
+position: sticky;
+z-index: 1;
+display: flex;
+justify-content: space-between;
+}
+/* ... (existing styles) ... */
+
+body {
+    background-image: url("a.jpg"); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keep background fixed */
+  }
+  
+  .call-to-action {
+    text-align: center;
+    padding: 50px 0;
+    color: #fff; /* Assuming white text for contrast */
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay a semi-transparent black background */
+  }
+  
+  .call-to-action button,.hero button {
+    background-color: #357960; /* Your primary color */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .call-to-action button:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+.h-left{
+    background-color: #000000;
+    height: 40px;
+    padding: 6px;
+    padding-top:20px;
+    border-radius: 10px;
+}
